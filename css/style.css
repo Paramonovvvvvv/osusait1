@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap');
+body{
+  font-family: 'Sedgwick Ave', cursive;
+}
+.navbar-dark .navbar-nav .nav-link{
+  color: #fff;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+  color: black;
+  transition-duration: 0.6s;
+}
+.btn-outline-dark{
+  color: #fff;
+  border-color: #343a40;
+}
+.logo{
+  max-width: 50px;
+  max-height: 50px;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  max-width: 100%;
+  padding: 20px;
+}
+#myBtn {
+  max-width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #343a40;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
